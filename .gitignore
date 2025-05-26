@@ -9,3 +9,8 @@ venv/
 .idea/
 # Model artifacts (if you prefer to keep them out of Git)
 models/
+dataset/
+
+# Outputs
+cam_*.jpg
+images/
