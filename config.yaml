@@ -1,0 +1,6 @@
+train_dir: "dataset/Training"
+input_shape: [128, 128, 3]
+n_classes: 4
+batch_size: 32
+epochs: 10
+model_path: "models/brain_tumor.h5"
