@@ -8,7 +8,7 @@ venv/
 .vscode/
 .idea/
 # Model artifacts (if you prefer to keep them out of Git)
-models/
+# models/
 dataset/
 
 # Outputs
