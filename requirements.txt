@@ -1,5 +1,3 @@
-fastapi
-uvicorn[standard]
 tensorflow
 opencv-python-headless
 streamlit
