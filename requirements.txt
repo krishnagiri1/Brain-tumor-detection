@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 tensorflow
 opencv-python-headless
+streamlit
 absl-py==2.2.2
 annotated-types==0.7.0
 anyio==4.9.0
