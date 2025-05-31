@@ -14,6 +14,7 @@ opencv-python-headless==4.11.0.86  # only headless version is needed on Render
 numpy==1.26.4                      # must be ≥1.23.x for Python 3.11 compatibility
 pillow==11.2.1
 
+requests==2.32.3
 # ─────────────────────────────────────────────────────────────────────────────
 # 3) Additional libraries your code uses
 # ─────────────────────────────────────────────────────────────────────────────
