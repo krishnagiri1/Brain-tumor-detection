@@ -1,6 +1,6 @@
 tensorflow
 opencv-python-headless
-streamlit
+streamlit>=1.18.0
 absl-py==2.2.2
 annotated-types==0.7.0
 altair==4.2.2
