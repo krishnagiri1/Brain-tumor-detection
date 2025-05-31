@@ -101,7 +101,7 @@ if uploaded_file is not None:
             probs = model.predict(img_tensor)[0]
 
             # (Optional) display raw probability vector for debugging
-            st.write("Raw probabilities:", np.round(probs, 3))
+            #st.write("Raw probabilities:", np.round(probs, 3))
 
             idx = int(np.argmax(probs))
             label = CLASSES[idx]
