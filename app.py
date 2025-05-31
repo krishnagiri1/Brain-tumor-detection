@@ -16,7 +16,7 @@ st.write("Upload an MRI scan and get both the predicted class and Grad-CAM heatm
 # 2) Load model once (cache with the older @st.cache decorator if you pinned
 #    Streamlit < 1.18; if you're using Streamlit ≥ 1.18, you can use @st.cache_resource)
 # ─────────────────────────────────────────────────────────────────────────────
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def load_tumor_model():
     return load_model(os.path.join("models", "brain_tumor.h5"))
 
